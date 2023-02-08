@@ -1,0 +1,252 @@
+@import "../fonts/stylesheet.css";
+
+.root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #252237;
+    color: #FAFAFA;
+    font-family: "Gotham Pro", "Gotham Pro, G", "Gotham Pro Narrow";
+}
+
+.header {
+    background-image: url("../assets/header.png");
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 60px;
+}
+
+.header__body {
+    font-weight: 700;
+}
+
+.header__text {
+    display: block;
+    width: 100%;
+    font-size: 70px;
+}
+
+.header__description {
+    font-weight: 400;
+    font-size: 20px;
+    width: 35%;
+    padding-bottom: 300px;
+}
+
+.button {
+    background: #E2521D;
+    padding: 30px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* BODY SECTION*/
+.body {
+    padding-bottom: 100px;
+}
+
+.robot__pic {
+    background-image: url("../assets/robot_pic.png");
+    background-repeat: no-repeat;
+    height: 505px;
+}
+
+.course__about {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.course__description {
+    color: #E2521D;
+    font-weight: 400;
+    font-size: 25px;
+    width: 90%;
+}
+
+.course__second__description {
+    color: #8997AB;
+    font-size: 18px;
+    font-weight: 400;
+    width: 90%;
+}
+/* BODY SECTION*/
+
+/* LEARN SECTION */
+.what__learn {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.learn__text {
+    display: block;
+    width: 100%;
+    font-size: 50px;
+}
+
+.circle {
+    color: #E2521D;
+    font-size: 25px;
+    border: 1px solid #E5E5E5;
+    border-radius: 50%;
+    width: 84px;
+    height: 84px;
+    padding: 22px;
+    text-align: center;
+}
+
+.circle__content {
+    font-size: 18px;
+    font-weight: 500;
+}
+/* LEARN SECTION */
+
+/* PROGRAM SECTION */
+.program__course {
+    margin-top: 200px;
+}
+
+.menu-item {
+    background: #0E1B28;
+    padding: 40px;
+    color: #FAFAFA;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.menu-content {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.program__circle {
+    color: #E2521D;
+    font-size: 25px;
+    border: 1px solid #E2521D;
+    border-radius: 50%;
+    font-weight: 400;
+    width: 50px;
+    height: 50px;
+    padding: 6px;
+    text-align: center;
+}
+/* PROGRAM SECTION */
+
+/* COURSE ABOUT */
+.course__about__description {
+    background-image: url("../assets/course_about.png");
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+.text__about {
+    color: #E2521D;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.undertext__about {
+    color: #8997AB;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* COURSE ABOUT */
+
+/* COURSE PROCESSING */
+.content__name {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.content__body {
+    color: #8997AB;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* COURSE PROCESSING */
+
+/* REQUEST BUTTON */
+.request__button {
+    background: #E2521D;
+    padding: 50px;
+}
+
+.go__to__course {
+    font-weight: 700;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.course__duration {
+    font-weight: 400;
+    font-size: 18px;
+}
+/* REQUEST BUTTON */
+
+/* COURSE ADVANTAGES*/
+.sale__offer {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.fill__form__ask {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.button-access {
+    background: #E2521D;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 21px;
+    color: #FAFAFA;
+    padding: 15px;
+    border: none;
+}
+/* COURSE ADVANTAGES*/
+
+/* FOOTER */
+.first__column {line-height: 28px}
+.third__column {line-height: 28px}
+/* FOOTER */
+
+
+/*CUSTOM*/
+.mt-10 {margin-top: 10px;}
+.mt-20 {margin-top: 20px;}
+.mt-30 {margin-top: 30px;}
+.mt-40 {margin-top: 40px;}
+.mt-50 {margin-top: 50px;}
+.mt-60 {margin-top: 60px;}
+.mt-70 {margin-top: 70px;}
+.mt-80 {margin-top: 80px;}
+.mt-90 {margin-top: 90px;}
+.mt-100 {margin-top: 100px;}
+.mt-110 {margin-top: 110px;}
+.mt-120 {margin-top: 120px;}
+
+.mb-10 {margin-bottom: 10px;}
+.mb-20 {margin-bottom: 20px;}
+.mb-30 {margin-bottom: 30px;}
+.mb-40 {margin-bottom: 40px;}
+.mb-50 {margin-bottom: 50px;}
+.mb-60 {margin-bottom: 60px;}
+.mb-70 {margin-bottom: 70px;}
+
+.content {display: block; width: 100%;}
+.sale__price {color: #FA4682; font-weight: 800; font-size: 20px}
+.classic__price {color: #FAFAFA; opacity: 50%; font-weight: 800; font-size: 20px}
+
+input {border: 1px solid #E2521D; background: #393C57;
+    padding: 15px; border-radius: 12px }
+
+input::placeholder {color: #FAFAFA}
+input:focus {border: 2px solid #E2521D; outline: none;}
+
+footer {font-size: 14px; font-weight: 400;}
+/*CUSTOM*/
